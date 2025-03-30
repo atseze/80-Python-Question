@@ -13,7 +13,7 @@ def add_items(item):
 
 
 my_list = [1, 5, [2, [3, 7, 9]], (89, 12)]
-out_list = list()
+out_list = []
 
 for item in my_list:
     add_items(item)
